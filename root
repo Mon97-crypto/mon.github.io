@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+  <title>	Monica's website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  .header {
+    padding: 80px; 
+    text-align: center;
+    background: #f9a980 ;
+    color: white; 
+  }
+
+  .header h1 {
+    font-size: 40px;
+  }
+
+  <div class="navbar">
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    
+    <a href="#" class="right">Link</a>
+  </div>
+
+
+  .navbar {
+    overflow: hidden; 
+    background-color: #000; 
+  }
+
+  
+  .navbar a {
+    float: right; 
+    display: block; 
+    color: black; 
+    text-align: center; 
+    padding: 14px 20px; 
+    text-decoration: overline; 
+    background-color: #F08080;
+  }
+  .navbar a.right {
+    float: right; 
+  }
+
+  .navbar a:hover {
+    background-color: rgb(229, 235, 243); 
+    color: black; 
+  }
+
+</style>
+  </head>
+  <body>
+
+  <h1>Monica Augustin</h1>
+  <p> <h3 style="color:cyan;">Design is the definition of creativity</h3> 
+  </p>
+
+  <div class="navbar">
+    <a href="#">INTRODUCTION</a>
+    <a href="#">RESUME</a>
+    <a href="#">CONTACT</a>
+    <a href="https://www.linkedin.com/in/monica-a-94bb77155/">LINKEDIN</a>
+    
+    <a href="https://github.com/Mon97-crypto">GITHUB</a>
+    
+    </div>
+<br><br><br><br><br>
+
+
+
+<style>
+  .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    background-color: #db4d2a;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .20s ease;
+  }
+  
+  .container:hover .overlay {
+    width: 100%;
+    left: 0;
+  }
+  
+  </style>
+  </head>
+  <body>
+  
+  
+  
+  <div class="container">
+    <img src="mon.jpg" alt="Monica" class="image">
+    <div class="overlay">
+      <p><h4>"A graduate innovation engineer with a passion to play with designs and persue a career in ui/ux designing.The Innovation/Startup fellowship program, ProtoSem is a 20-week, full-semester course, during which students are nurtured & guided to develop core technical concepts and key engineering skills and are transformed into 'Innovation Engineers'. We work as a team with students from different engineering/technical/science streams, towards designing, developing and testing an innovative tech-enabled solution to solve a real-world<h4>
+      </p>
+     </div>
+  </div>
+  
+
+<br><br><br><br>
+
+<br><br><br><br>
+<br><br>
+<br>
+
+
+
+  </body>
+  </html>
